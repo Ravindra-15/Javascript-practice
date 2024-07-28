@@ -1,0 +1,23 @@
+/* h1 {
+background-color: lightgrey;
+}
+
+button {
+background-color: rgb(117, 121, 121);
+color: white;
+}
+body {
+    background-color: beige;
+} */
+
+/* //..................................2nd Question................................................. */
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 2px;
+    background-color: rgb(209, 214, 222);
+    text-align: center;
+}
