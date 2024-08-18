@@ -28,3 +28,12 @@ para.style.backgroundColor="lightGrey";
 
 let body = document.querySelector("body");
 body.style.backgroundColor="rgb(0,180,200)";
+
+// ..................Created a button using js and added to the web page..................................
+
+let button = document.createElement("button");
+button.innerText = "click me";
+button.style.backgroundColor="red";
+button.style.color="white";
+document.querySelector("body").prepend(button);  // it will add button before the body
+document.querySelector("p").after(button);   // it will add the button after paragraph tag
