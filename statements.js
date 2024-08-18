@@ -1,6 +1,6 @@
 let a = 5;
 let b = 6;
-if (a == b){
+if (a === b){
     console.log("The condition is true");
 }
 else{

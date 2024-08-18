@@ -1,6 +1,6 @@
 //...............Arithematic Operators...............
 
-/*let a = 5;
+let a = 5;
 console.log("The value of a is :",a);
 let b = 2;
 console.log("The value of b is :",b);
@@ -34,7 +34,7 @@ console.log("post decrement (d--) of d =",d--);  //prints the previous value the
 console.log("post decrement (d--) of d =",d);
 console.log("pre decrement (--d) of d =",--d);  //decreases the value first the prints
 console.log("pre decrement (--d) of d =",d);
-*/
+
 
 
 //...................Assignment Operators.....................
@@ -53,7 +53,7 @@ console.log(b *= 2) //b = b * 1
 
 //.........................Comparison operators........................
 
-/* let a = 5;
+/*let a = 5;
 let b = 5;
 console.log("Value of a:",a);
 console.log("Value of b:",b);
@@ -71,26 +71,25 @@ console.log("a <= b",a <= b);
 console.log("a >= b",a >= b);
 */
 
-
 //......................Logical operators..................
 
-let a = 6;
-let b = 5;
-let c = 4;
-console.log("Value of a:",a);
-console.log("Value of b:",b);
-console.log("Value of c:",c);
-Cond1 = a > b;  //true
-Cond2 = b < a;  //true
-Cond3 = c > a;  //false
-Cond4 = b < c;  //false
-console.log("a > b && b < a",Cond1 && Cond2);  //Logical AND
-console.log("a > b && c > a",Cond1 && Cond3);  //both must be true for true result
+// let a = 6;
+// let b = 5;
+// let c = 4;
+// console.log("Value of a:",a);
+// console.log("Value of b:",b);
+// console.log("Value of c:",c);
+// Cond1 = a > b;  //true
+// Cond2 = b < a;  //true
+// Cond3 = c > a;  //false
+// Cond4 = b < c;  //false
+// console.log("a > b && b < a",Cond1 && Cond2);  //Logical AND
+// console.log("a > b && c > a",Cond1 && Cond3);  //both must be true for true result
 
-console.log("a > b || b < a",Cond1 || Cond2);  //Logical OR
-console.log("a > b || c > a",Cond1 || Cond3);   //if one is true then result will be true
-console.log("c > a || b < c",Cond3 || Cond4);   //both are false ,result wll be false
+// console.log("a > b || b < a",Cond1 || Cond2);  //Logical OR
+// console.log("a > b || c > a",Cond1 || Cond3);   //if one is true then result will be true
+// console.log("c > a || b < c",Cond3 || Cond4);   //both are false ,result wll be false
 
 
-console.log("!(a > b)", !Cond1)  //logical Not !
-console.log("!(c > a)", !Cond3); //it always produces the opposite answer
+// console.log("!(a > b)", !Cond1)  //logical Not !
+// console.log("!(c > a)", !Cond3); //it always produces the opposite answer
