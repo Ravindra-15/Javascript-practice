@@ -12,6 +12,7 @@
 // myFunction("hello","there"); //arguments
 
 //............Sum of 2 Numbers........................................................
+  
 
 // function sum(num1,num2){
 //     let x = num1 + num2;
@@ -78,14 +79,18 @@
 
 
 
-//.............HIGHER ORDER FUNCTIONS...........functions which can use other functions aas a parameter ....ex- for each
-//.............for each-loop..........This is used in array and we can passed a function as a parameter in for each-loop
+//.............HIGHER ORDER FUNCTIONS...........functions which can use other functions as a parameter ....ex- for each
+//.............for each-loop..........This is used in array and we can pass a function as a parameter in for each-loop
  
 // arr = [16,23,58,82,94];
+
 // arr.forEach((marks,idx,arr)=> {     //we have 3 parameters in callback function ( value, index, array itself)
 //     console.log(marks,idx,arr);
 // });
 
+// arr.forEach((val,idx) =>{
+//     console.log(val,idx);
+// })
 
 //...............................Questiion................................
 //print the square of each element of array using for each.................
@@ -95,6 +100,10 @@
 //     console.log(value*value);
 // } 
 // array.forEach(value);
+
+// array.forEach((value) =>{
+//     console.log(` ${value} = ${value*value} `)
+// })
 
 //...........................arr.map is used to return new array which is uodated after some operation.........................
 
@@ -147,17 +156,17 @@
 // })
 // console.log(max);
 
-let n = prompt("Enter a number :")
-let arr = [];
-for(let i = 1; i <= n; i++){
-    arr[i - 1] = i;
-}
-console.log(arr);
-let sum = arr.reduce((prev,curr) => {
-    return(prev + curr);
-})
-console.log("The Sum of Numbers :",sum);
-let mul = arr.reduce((prev,curr) => {
-    return(prev * curr);
-})
-console.log("The Product of Numbers :",mul);
+// let n = prompt("Enter a number :")
+// let arr = [];
+// for(let i = 1; i <= n; i++){
+//     arr[i - 1] = i;
+// }
+// console.log(arr);
+// let sum = arr.reduce((prev,curr) => {
+//     return(prev + curr);
+// })
+// console.log("The Sum of Numbers :",sum);
+// let mul = arr.reduce((prev,curr) => {
+//     return(prev * curr);
+// })
+// console.log("The Product of Numbers :",mul);
